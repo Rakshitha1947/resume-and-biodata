@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; background:#f4f4f9; color:#222; margin:0; }
+.container { max-width:900px; margin:32px auto; padding:24px; }
+.card { background:#fff; border-radius:12px; padding:28px; box-shadow:0 8px 30px rgba(20,20,50,0.06); }
+.header { display:flex; align-items:center; gap:20px; }
+.avatar { width:96px; height:96px; border-radius:12px; background:#0b63ff; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:28px; }
+.name-title { flex:1; }
+.name { margin:0; font-size:28px; font-weight:700; }
+.title { color:#666; margin-top:6px; }
+.location { text-align:right; color:#666; font-weight:600; }
+.layout { display:grid; grid-template-columns:1fr 320px; gap:28px; margin-top:18px; }
+.section { margin-bottom:18px; }
+h3 { margin:0 0 10px 0; font-size:16px; }
+.item { padding:12px 0; border-bottom:1px dashed #eee; }
+.meta { color:#666; font-size:13px; }
+.sidebar { background:#fbfdff; padding:16px; border-radius:10px; }
+.biodata table { width:100%; border-collapse:collapse; margin-top:36px; }
+.biodata th { text-align:left; padding:8px; background:#fbfbff; width:28%; }
+.biodata td { padding:8px; border-bottom:1px solid #eee; }
+@media (max-width:880px){ .layout { grid-template-columns:1fr; } .avatar { width:76px; height:76px; } }
